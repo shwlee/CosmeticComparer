@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:vm="clr-namespace:CosmeticCompare.ViewModels"
+					xmlns:v="clr-namespace:CosmeticCompare.Views">
+
+	<DataTemplate DataType="{x:Type vm:CompareViewModel}">
+		<v:CompareView/>
+	</DataTemplate>
+
+	<DataTemplate DataType="{x:Type vm:RegisterViewModel}">
+		<v:RegisterView/>
+	</DataTemplate>
+
+</ResourceDictionary>
